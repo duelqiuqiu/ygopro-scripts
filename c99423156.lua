@@ -22,7 +22,7 @@ function c99423156.initial_effect(c)
 	c:RegisterEffect(e2)
 end
 function c99423156.spfilter(c,e,tp)
-	return c:GetCode()~=99423156 and c:IsSetCard(0xd7) and c:IsCanBeSpecialSummoned(e,0,tp,false,false)
+	return c:GetCode()~=99423156 and c:IsSetCard(0xd9) and c:IsCanBeSpecialSummoned(e,0,tp,false,false)
 end
 function c99423156.sumtg(e,tp,eg,ep,ev,re,r,rp,chk)
 	if chk==0 then return Duel.GetLocationCount(tp,LOCATION_MZONE)>0
